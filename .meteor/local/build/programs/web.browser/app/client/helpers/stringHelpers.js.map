@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/client/helpers/stringHelpers.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA","file":"/client/helpers/stringHelpers.js","sourcesContent":["Template.registerHelper('truncate', function(string, length) {\n  var cleanString = s(string).stripTags();\n  return s(cleanString).truncate(length);\n});\n"]}

@@ -1,0 +1,40 @@
+<template name="addMeetup">
+  <div class="template-addMeetup">
+    <div class="page-header">
+      <h1>Create New Meetup</h1>
+    </div>
+    <div class="form-maxwidth">
+	    <form class="add-meetup-form">
+	    	<div class="form-group">
+	    		<label>Meetup Title</label>
+	    		<input type="text" id="title" name="title" placeholder="Title" class="form-control">
+	    	</div>
+	    	<div class="form-group">
+	    		<label>Contact Email</label>
+	    		<input type="email" id="email" name="email" placeholder="Email" class="form-control">
+	    	</div>
+	    	<div class="form-group">
+	    		<label>Topics</label>
+	    		<input type="text" id="topics" name="topics" placeholder="Topics (eg. Programming, design, gadgets...)" class="form-control">
+	    	</div>  
+	    	<div class="form-group">
+	    		<label>Type</label>
+	    		<select id="type" name="type" class="form-control">
+	    			<option value="public">Public</option>
+	    			<option value="private">Private</option>
+	    			<option value="invite">Invite</option>
+	    		</select>
+	    	</div>  
+	    	<div class="form-group">
+	    		<label>Meetup Date</label>
+	    		<div class="input-group datetimepicker">
+	    			<span class="input-group-addon">
+	    				<i class="fa fa-calendar"></i>
+	    			</span>
+	    			<input type="text" class="set-due-date form-control" id="meetupdate" name="meetupdate"></input>
+	    		</div>
+	    	</div> 	    	  		    	
+	    </form>    	
+    </div>
+  </div>
+</template>

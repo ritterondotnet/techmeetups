@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/client/templates/dashboard/dashboard.js"],"names":[],"mappings":"yBAAA;AACA;AACA","file":"/client/templates/dashboard/dashboard.js","sourcesContent":["Template.dashboard.rendered = function() {\n\n};\n"]}

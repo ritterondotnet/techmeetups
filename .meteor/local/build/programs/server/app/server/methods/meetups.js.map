@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/server/methods/meetups.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA","file":"/server/methods/meetups.js","sourcesContent":["Meteor.methods({\n  'Meetups.insert': function (params) {\n    Meetups.insert(params);\n  }\n});\n"]}

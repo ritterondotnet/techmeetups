@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/both/controllers/home.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA","file":"/both/controllers/home.js","sourcesContent":["HomeController = AppController.extend({\n  data: {\n\n  }\n});\n"]}

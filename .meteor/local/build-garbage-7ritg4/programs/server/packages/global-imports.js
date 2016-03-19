@@ -1,0 +1,40 @@
+/* Imports for global scope */
+
+Roles = Package['alanning:roles'].Roles;
+Handlebars = Package.ui.Handlebars;
+OriginalHandlebars = Package['cmather:handlebars-server'].OriginalHandlebars;
+moment = Package['momentjs:moment'].moment;
+s = Package['underscorestring:underscore.string'].s;
+CollectionHooks = Package['matb33:collection-hooks'].CollectionHooks;
+Factory = Package['dburles:factory'].Factory;
+Fake = Package['anti:fake'].Fake;
+Router = Package['iron:router'].Router;
+RouteController = Package['iron:router'].RouteController;
+Meta = Package['yasinuslu:blaze-meta'].Meta;
+Meteor = Package.meteor.Meteor;
+WebApp = Package.webapp.WebApp;
+main = Package.webapp.main;
+WebAppInternals = Package.webapp.WebAppInternals;
+Log = Package.logging.Log;
+Tracker = Package.deps.Tracker;
+Deps = Package.deps.Deps;
+DDP = Package.livedata.DDP;
+DDPServer = Package.livedata.DDPServer;
+MongoInternals = Package.mongo.MongoInternals;
+Mongo = Package.mongo.Mongo;
+Blaze = Package.ui.Blaze;
+UI = Package.ui.UI;
+Spacebars = Package.spacebars.Spacebars;
+check = Package.check.check;
+Match = Package.check.Match;
+_ = Package.underscore._;
+Random = Package.random.Random;
+EJSON = Package.ejson.EJSON;
+Accounts = Package['accounts-base'].Accounts;
+AccountsTemplates = Package['useraccounts:core'].AccountsTemplates;
+Iron = Package['iron:core'].Iron;
+SimpleSchema = Package['aldeed:simple-schema'].SimpleSchema;
+MongoObject = Package['aldeed:simple-schema'].MongoObject;
+HTML = Package.htmljs.HTML;
+T9n = Package['softwarerero:accounts-t9n'].T9n;
+

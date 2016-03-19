@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/both/collections/meetups.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA,G","file":"/both/collections/meetups.js","sourcesContent":["Meetups = new Mongo.Collection('meetups');\n\nMeetups.helpers({\n\n});\n\nMeetups.before.insert(function (userId, doc) {\n  doc.createdAt = moment().toDate();\n});"]}

@@ -1,0 +1,2 @@
+{"{}/client/stylesheets/base/common.less":"33f1114e8b3bdf7cbdd00f4b267991fbc0987453"}
+{"css":".navbar-right {\n  margin-left: 10px;\n}\nfooter {\n  margin-top: 40px;\n}\n.form-maxwidth {\n  max-width: 400px;\n}\n","sourceMap":{"version":3,"sources":["client/stylesheets/base/common.less"],"names":[],"mappings":"AAAA;EACC,iBAAA;;AAGD;EACC,gBAAA;;AAGD;EACC,gBAAA","sourcesContent":[".navbar-right{\n\tmargin-left:10px;\n}\n\nfooter{\n\tmargin-top:40px;\n}\n\n.form-maxwidth{\n\tmax-width:400px;\n}"]}}

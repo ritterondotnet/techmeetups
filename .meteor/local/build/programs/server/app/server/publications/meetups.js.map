@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/server/publications/meetups.js"],"names":[],"mappings":"yBAAA;AACA;AACA,G","file":"/server/publications/meetups.js","sourcesContent":["Meteor.publish('meetups', function(){\n  return Meetups.find();\n});"]}

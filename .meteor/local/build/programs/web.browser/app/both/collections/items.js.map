@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/both/collections/items.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"/both/collections/items.js","sourcesContent":["Items = new Mongo.Collection('items');\n\nItems.helpers({\n\n});\n\nItems.before.insert(function (userId, doc) {\n  doc.createdAt = moment().toDate();\n});\n"]}

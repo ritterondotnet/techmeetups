@@ -1,0 +1,42 @@
+/* Imports for global scope */
+
+Roles = Package['alanning:roles'].Roles;
+moment = Package['momentjs:moment'].moment;
+s = Package['underscorestring:underscore.string'].s;
+CollectionHooks = Package['matb33:collection-hooks'].CollectionHooks;
+Factory = Package['dburles:factory'].Factory;
+Fake = Package['anti:fake'].Fake;
+Mailgun = Package['cunneen:mailgun'].Mailgun;
+Router = Package['iron:router'].Router;
+RouteController = Package['iron:router'].RouteController;
+Meta = Package['yasinuslu:blaze-meta'].Meta;
+AutoForm = Package['aldeed:autoform'].AutoForm;
+Meteor = Package.meteor.Meteor;
+WebApp = Package.webapp.WebApp;
+Log = Package.logging.Log;
+Tracker = Package.deps.Tracker;
+Deps = Package.deps.Deps;
+Session = Package.session.Session;
+DDP = Package.livedata.DDP;
+Mongo = Package.mongo.Mongo;
+Blaze = Package.ui.Blaze;
+UI = Package.ui.UI;
+Handlebars = Package.ui.Handlebars;
+Spacebars = Package.spacebars.Spacebars;
+Template = Package.templating.Template;
+check = Package.check.check;
+Match = Package.check.Match;
+_ = Package.underscore._;
+$ = Package.jquery.$;
+jQuery = Package.jquery.jQuery;
+Random = Package.random.Random;
+EJSON = Package.ejson.EJSON;
+LaunchScreen = Package['launch-screen'].LaunchScreen;
+Accounts = Package['accounts-base'].Accounts;
+AccountsTemplates = Package['useraccounts:core'].AccountsTemplates;
+Iron = Package['iron:core'].Iron;
+SimpleSchema = Package['aldeed:simple-schema'].SimpleSchema;
+MongoObject = Package['aldeed:simple-schema'].MongoObject;
+HTML = Package.htmljs.HTML;
+T9n = Package['softwarerero:accounts-t9n'].T9n;
+

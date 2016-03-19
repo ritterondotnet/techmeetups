@@ -1,0 +1,46 @@
+/* Imports for global scope */
+
+Roles = Package['alanning:roles'].Roles;
+moment = Package['momentjs:moment'].moment;
+s = Package['underscorestring:underscore.string'].s;
+CollectionHooks = Package['matb33:collection-hooks'].CollectionHooks;
+Factory = Package['dburles:factory'].Factory;
+Fake = Package['anti:fake'].Fake;
+Mailgun = Package['cunneen:mailgun'].Mailgun;
+Router = Package['iron:router'].Router;
+RouteController = Package['iron:router'].RouteController;
+Meta = Package['yasinuslu:blaze-meta'].Meta;
+AutoForm = Package['aldeed:autoform'].AutoForm;
+Mongo = Package.mongo.Mongo;
+Session = Package.session.Session;
+$ = Package.jquery.$;
+jQuery = Package.jquery.jQuery;
+Tracker = Package.tracker.Tracker;
+Deps = Package.tracker.Deps;
+Log = Package.logging.Log;
+Reload = Package.reload.Reload;
+Random = Package.random.Random;
+EJSON = Package.ejson.EJSON;
+Spacebars = Package.spacebars.Spacebars;
+check = Package.check.check;
+Match = Package.check.Match;
+Accounts = Package['accounts-base'].Accounts;
+AccountsClient = Package['accounts-base'].AccountsClient;
+AccountsTemplates = Package['useraccounts:core'].AccountsTemplates;
+Iron = Package['iron:core'].Iron;
+Collection2 = Package['aldeed:collection2-core'].Collection2;
+SimpleSchema = Package['aldeed:simple-schema'].SimpleSchema;
+MongoObject = Package['aldeed:simple-schema'].MongoObject;
+Meteor = Package.meteor.Meteor;
+WebApp = Package.webapp.WebApp;
+_ = Package.underscore._;
+DDP = Package['ddp-client'].DDP;
+LaunchScreen = Package['launch-screen'].LaunchScreen;
+Blaze = Package.ui.Blaze;
+UI = Package.ui.UI;
+Handlebars = Package.ui.Handlebars;
+Template = Package.templating.Template;
+T9n = Package['softwarerero:accounts-t9n'].T9n;
+Autoupdate = Package.autoupdate.Autoupdate;
+HTML = Package.htmljs.HTML;
+

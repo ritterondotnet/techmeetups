@@ -1,0 +1,1 @@
+{"version":3,"sources":["meteor://💻app/server/methods/items.js"],"names":[],"mappings":"yBAAA;AACA;AACA;AACA;AACA","file":"/server/methods/items.js","sourcesContent":["Meteor.methods({\n  'Items.insert': function (params) {\n    Items.insert(params);\n  }\n});\n"]}
